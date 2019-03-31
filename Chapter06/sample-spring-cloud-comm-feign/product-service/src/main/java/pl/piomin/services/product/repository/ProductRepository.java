@@ -24,10 +24,7 @@ public class ProductRepository {
 	
 	public Product findById(Long id) {
 		Optional<Product> product = products.stream().filter(p -> p.getId().equals(id)).findFirst();
-		if (product.isPresent())
-			return product.get();
-		else
-			return null;
+		return product.orElse(null);
 	}
 	
 	public void delete(Long id) {
