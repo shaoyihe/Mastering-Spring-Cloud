@@ -5,29 +5,10 @@ Developing, deploying, and operating cloud applications should be as easy as loc
 ## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
-All code files are present in their respective folders.
-Chapters 1,3,9,13 and 14 do not contain code files. 
+目录：
 
-The code will look like the following:
-```
-<dependency>
-  <groupId>org.springframework.cloud</groupId>
-  <artifactId>spring-cloud-config-server</artifactId>
-</dependency>
-```
+##### Eureka
 
-In order to successfully read through this book and work out all the code samples, we
-expect readers to fulfill the following requirements:
-An active internet connection
-* Java 8+
-* Docker
-* Maven
-* Git client
-
-## Related Products
-* [Spring Security - Third Edition](https://www.packtpub.com/application-development/spring-security-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787129511)
-
-* [Spring: Microservices with Spring Boot](https://www.packtpub.com/application-development/spring-microservices-spring-boot?utm_source=github&utm_medium=repository&utm_campaign=9781789132588)
-
-* [Apache CloudStack Cloud Computing ](https://www.packtpub.com/virtualization-and-cloud/apache-cloudstack-cloud-computing?utm_source=github&utm_medium=repository&utm_campaign=9781782160106)
-
+        
+##### Ribbon
+chapter6/sample-spring-cloud-comm-master

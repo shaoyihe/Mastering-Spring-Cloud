@@ -20,11 +20,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-    registerWithEureka: false
-    preferSameZoneEureka: true
-  instance:
-    metadataMap:
-      zone: zone1
+    registerWithEureka: true
+    preferSameZoneEureka: false
+#  instance:
+#    metadataMap:
+#      zone: zone1
 server:  
   port: ${PORT:8765}
 
